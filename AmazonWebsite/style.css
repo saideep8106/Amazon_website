@@ -1,0 +1,172 @@
+/* .headerbar{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    
+} */
+
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 2px solid red;    */
+ }
+ .first{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.114), rgba(0, 0, 0, 0.519)),url(../gallery/MLP.jpg);
+    background-position: 0px 0px;
+ }
+ .second{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.114), rgba(0, 0, 0, 0.519)),url(../gallery/MPL2.jpg);
+    background-position: 0px 0px;
+ }
+
+ .container3{
+    color: black;
+
+ }
+ div{
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+    color: aliceblue;
+    /* font-family: deeps; */
+    margin-right: -10px;
+}
+
+.container1, .container2{
+    padding-left: 25px;
+    padding-top: 35px;
+    font-size: 20px;
+}
+h1,p,button{
+    margin: 20px;
+    width: 650px;
+    height: 51px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: deeps; */
+    /* font-weight: 900; */
+    padding-left: 80px;
+    
+}
+h1{
+    font-size: 40px;
+}
+
+.psecond{
+    padding-left: 10px;
+    margin-top: 10px;
+}
+button{
+    width: 279px;
+    height: 50px;
+    padding: 12px 60px;
+    background-color: #0f79af;
+    border: 0 solid black;
+    color: white;
+    font-size: 1rem;
+    margin-left: 98px;
+    cursor: pointer;
+}
+.third{
+    background-color: white;
+    width: 100%;
+    height: 98vh;
+    padding: 10px 46px;
+    /* border: 2px solid red; */
+    
+ }
+
+ .container3{
+    width: 50%;
+    height: 600px;
+    float: left;
+    display: block;
+    padding: 29px;
+    margin-right: 40px;
+    margin-top: 5px;
+    
+}
+#cnt3-h3{
+    position: relative;
+    left: -70px;
+}
+.container3 h3{
+    position: relative;
+    left: 30px;
+    top: 60px;
+}
+img{
+    width: 200px;
+    height: 130px;
+   
+}
+
+[alt="box"]:hover{
+    box-shadow: 0px 0px 12px black;
+}
+@font-face {
+    font-family: deeps;
+    src: url(../../../CSS/Amazon_Typefaces_Complete_Font_Set_Mar2020/Ember\ Display/#0f79af);
+}
+img[alt="logo"]{
+    background-color: black;
+    width: 160px;
+    height: 35px;
+    margin-left: 140px;
+    margin-top: 4px;
+}
+section{
+    height: 70px;
+    background-color: black;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    
+}
+a{
+    text-decoration:none;
+    color: gray;
+}
+.bottom{
+    width: 100%;
+    height: 183px;
+    margin-top: 15px;
+    background-color: black;
+    text-align: center;
+    padding-top: 11px;
+}
+.bottom [href="#"]{
+    position: relative;
+    top: 70px;
+    padding: 9px;
+    margin: 35px;
+    padding-top: 6px;
+    margin-top: 20px;
+    
+    
+}
+img[alt="footerlogo"]{
+    height: 50px;
+    display: block;
+    position: relative;
+    top: 20px;
+    left: -420px;
+    margin: auto;
+    padding-top: 11px;
+}
+#last_para{
+    width: 95%;
+    background-color: black;
+    padding-left: 43px;
+    margin-top: 20px;
+    color: gray;
+}
